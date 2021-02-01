@@ -8,9 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhruvin-purohit/better-api-tracker.git"
+    "url": "git+https://github.com/statch/better-api-tracker.git"
   },
   "keywords": [
+    "api-tracker",
     "better-api-tracker",
     "api",
     "tracker"
@@ -18,9 +19,9 @@
   "author": "Dhruvin Purohit",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/dhruvin-purohit/better-api-tracker/issues"
+    "url": "https://github.com/statch/better-api-tracker/issues"
   },
-  "homepage": "https://github.com/dhruvin-purohit/better-api-tracker#readme",
+  "homepage": "https://github.com/statch/better-api-tracker#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
