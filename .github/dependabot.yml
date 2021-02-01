@@ -6,8 +6,6 @@ updates:
       interval: "daily"
     labels:
       - "npm-bump"
-        reviewers:
-      - "itsmewulf"
     commit-message:
       prefix: "npm"
       include: "scope"
