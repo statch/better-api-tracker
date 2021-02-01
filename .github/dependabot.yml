@@ -1,0 +1,32 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    labels:
+      - "npm-bump"
+        reviewers:
+      - "itsmewulf"
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+    reviewers:
+      - "Dhruvin-Purohit"
+    pull-request-branch-name:
+      separator: "-"
+      
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "gh-actions-bump"
+    reviewers:
+      - "itsmewulf"
+      - "Dhruvin-Purohit"
+    commit-message:
+      prefix: "github actions"
+      include: "scope"
+    pull-request-branch-name:
+      separator: "-"
