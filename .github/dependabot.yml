@@ -10,7 +10,7 @@ updates:
       prefix: "npm"
       include: "scope"
     reviewers:
-      - "Dhruvin-Purohit"
+      - "itsmewulf"
     pull-request-branch-name:
       separator: "-"
       
@@ -22,7 +22,6 @@ updates:
       - "gh-actions-bump"
     reviewers:
       - "itsmewulf"
-      - "Dhruvin-Purohit"
     commit-message:
       prefix: "github actions"
       include: "scope"
